@@ -11,22 +11,22 @@ const defaultMenu = {
 ╭═══════════════════════⬣
 ║╭──❉ 〔⳹ ❋ཻུ۪۪TENTANG ANDA⳹ ❋ཻུ۪۪〕 ❉──────
 ║ ┅ ๑————————————๑
-║│┊⌲ Hai, %name!
-║│┊⌲ Tersisa *%limit Limit*
-║│┊⌲ Role *%role*
-║│┊⌲ Level *%level (%exp / %maxexp)*
-║│┊⌲ [%xp4levelup]
-║│┊⌲ %totalexp XP secara Total
+║│┊⌲🏵️ Hai, %name!
+║│┊⌲🏵️ Tersisa *%limit Limit*
+║│┊⌲🏵️ Role *%role*
+║│┊⌲🏵️ Level *%level (%exp / %maxexp)*
+║│┊⌲🏵️ [%xp4levelup]
+║│┊⌲🏵️ %totalexp XP secara Total
 ║╭──❉ 〔⳹ ❋ཻུ۪۪⸙TANGGAL⳹ ❋ཻུ۪۪〕 ❉──────
-║│┊⌲ Hari: *%week %weton*
-║│┊⌲ Tanggal: *%date*
-║│┊⌲ WaktuIslam:*%dateIslamic*
-║│┊⌲ Waktu: *%time*
+║│┊⌲🏵️ Hari: *%week %weton*
+║│┊⌲🏵️ Tanggal: *%date*
+║│┊⌲🏵️ WaktuIslam:*%dateIslamic*
+║│┊⌲🏵️ Waktu: *%time*
 ║╭──❉ 〔⳹ ❋ཻུ۪۪⸙TIME⳹ ❋ཻུ۪۪〕 ❉──────
-║│┊⌲ Uptime: *%uptime (%muptime)*
-║│┊⌲ Database: %rtotalreg dari %totalreg
-║│┊⌲ Memory Used : 
-║│┊⌲ ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
+║│┊⌲🍁 Uptime: *%uptime (%muptime)*
+║│┊⌲🍁 Database: %rtotalreg dari %totalreg
+║│┊⌲🍁 Memory Used : 
+║│┊⌲🍁 ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
 ║│ ┅ ๑————————————๑
 ╰─────────❉
 %readmore`.trimStart(),
@@ -34,7 +34,7 @@ const defaultMenu = {
   body: '║│➸%cmd %islimit %isPremium',
   footer: '*╰───❉*\n',
   after: `
-  ⬣━〔Powered By Rozi〕━⬣
+  ⬣━〔Powered By Jarot〕━⬣
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
@@ -225,11 +225,11 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                         "title": `*${ucapan()}, ${name}*`.trim(),
                         "description": `
 ♡   ❍ㅤ  ⎙ㅤ ⌲
-╭─[ *_ZIFABOTZ_* ]─✧
+╭─[ *_JAROTBOTZ_* ]─✧
 ╰─────···
 📮 𝚂𝚒𝚕𝚊𝚑𝚔𝚊𝚗 𝚙𝚒𝚕𝚒𝚑 𝚖𝚎𝚗𝚞 𝚍𝚒 𝚋𝚊𝚠𝚊𝚑 𝚒𝚗𝚒_____•••••••••
-⬣━〔Powered By Rozi━⬣
-▌│█║▌║▌║║▌║▌║█│▌ `.trim(),                        "footerText": "*©zifabotz*",                        "buttonText": "««TAMPILAN MENU««",                        "listType": "SINGLE_SELECT",                        "sections": [
+⬣━〔Powered By Jarot━⬣
+▌│█║▌║▌║║▌║▌║█│▌ `.trim(),                        "footerText": "*©jarotbotz*",                        "buttonText": "««TAMPILAN MENU««",                        "listType": "SINGLE_SELECT",                        "sections": [
                             {
                                 "rows": [{
                                     "title":  "|📥| ❯╾Donasi╼-",
@@ -245,15 +245,15 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                     "rowId": ".setelangrub"
                                 }, {
 "title":      "|🛒| ❯╾Store Menu╼-",
-                                    "description": "store di zifabotz",
+                                    "description": "store di Jarotbotz",
                                     "rowId": ".iklan"
                                 }, {
   "title":  "|👩‍💻| ❯╾jadibot╼-",
-                                    "description": "bergabung bersama bot zifa",
+                                    "description": "bergabung bersama bot Jarot",
                                     "rowId": ".jadibot"
                                 }, {
   "title":  "|🙇‍♂️| ❯╾group╼-",
-                                    "description": "bergabung di grub bersama bot zifa",
+                                    "description": "bergabung di grub bersama bot",
                                     "rowId": ".gcbot"
                                 }, {
   "title":  "|📒| ❯╾biodata owner╼-",
@@ -396,7 +396,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                     "rowId": ".waifu"
                                 }, { 
 "title": "⋮☰|🅿️|┅MENU———๑「 31 」",
-                                    "description": "profile anda di zifabotz",
+                                    "description": "profile anda di jarotbotz",
                                     "rowId": ".profile"
                                 }, { 
                                     "title": "⋮☰|👩‍⚖️|┅MENU———๑「 32 」",
@@ -406,15 +406,15 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                 "title": "⟣──────────────❲  All-Menu  ❳──────────────⟢"
                             }, {
                                 "rows": [{
-                                    "title": "|👩‍💻| Owner ZIFABOTZ",
-                                    "description": "pemilik ZIFABOTZ",
+                                    "title": "|👩‍💻| Owner JAROTBOTZ",
+                                    "description": "pemilik JAROTBOTZ",
                                     "rowId": ".owner"
                                 }, {
                                     "title": "|🛠|Status bot",
                                     "description": "Status dan informasi bot",
                                     "rowId": ".botstatus"
                                 }, {
-                                    "title": "|🖨️| Rules zifabotz",
+                                    "title": "|🖨️| Rules Jarotbotz",
                                     "description": "Mari menaati peraturan demi Kita bersama",
                                     "rowId": ".rules2"
                                 }, {
