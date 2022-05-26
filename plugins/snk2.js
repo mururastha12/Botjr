@@ -5,9 +5,9 @@ let handler = async (m, { conn }) => {
 
 let str = `╭─────[ *RULES* ]─────✧
 ┴
-│¹ Dilarang Hina zifabotz / Owner
+│¹ Dilarang Hina jarotbotz / Owner
 │² Dilarang Spam Command
-│³ Dilarang Kirim Virtex ke zifabotz
+│³ Dilarang Kirim Virtex ke jarotbotz
 │⁴ Dilarang Spam Menu Ga Jelas
 │⁵ Dilarang Telp / Vc
 │⁶ Dilarang Culik Bot
@@ -28,8 +28,8 @@ let str = `╭─────[ *RULES* ]─────✧
 │ 9 & 10 = Block permanent
 ┬
 ╰──────────···
-  ⬣━〔Powered By Rozi〕━⬣
-©️ zifabotz`
+  ⬣━〔Powered By Jarot〕━⬣
+©️ jarotbotz`
 let name = await conn.getName(m.sender)
 
 let fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}) }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
@@ -41,14 +41,14 @@ let fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ?
       "product": {
         "productImage": image,
         "productId": "4938174216214248",
-        "title": "RULES ZIFABOTZ",
+        "title": "RULES JAROTBOTZ",
         "description": '\n' + watermark + '\n' + str,
-        "retailerId": "Thanks For zifabotz !",
+        "retailerId": "Thanks For jarotbotz !",
         "url": "▌│█║▌║▌║║▌║▌║█│▌",
         "descriptionCount": "999999999",
         "productImageCount": "1",
       },
-      "businessOwnerJid": "6285828764046@s.whatsapp.net",
+      "businessOwnerJid": "6285850539404@s.whatsapp.net",
       "contextInfo": {
         "forwardingScore": 9999,
         "isForwarded": true
