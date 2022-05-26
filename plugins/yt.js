@@ -5,12 +5,12 @@ let str = `
 ╭═══════════════════════
 ║╭──❉ 〔 ⳹ ❋ཻུ۪۪YOUTUBE⳹ ❋ཻུ۪۪ 〕 ❉────── 
 ║│➸ *_YOUTUBE OWNER_*
-║│➸  *https://youtube.com/channel/UCSScI6NnXE0dQ1HCnPUUSKQ*
+║│➸  *https://youtube.com/channel/UCW7iXlE7*
 ╰─────────❉
 ▌│█║▌║▌║║▌║▌║█│▌
-⳹ ❋ཻུ۪۪zifabotz⳹ ❋ཻུ۪۪⸙ by.rozi
+⳹ ❋ཻུ۪۪jarotbotz⳹ ❋ཻུ۪۪⸙ by.jarot
 `.trim()
-conn.sendButton(m.chat, str, `© zifabotz`, `⋮☰ Menu`, `.menu`, m)
+conn.sendButton(m.chat, str, `© jarotbotz`, `⋮☰ Menu`, `.menu`, m)
 }
 handler.help = ['yutube']
 handler.tags = ['info']
