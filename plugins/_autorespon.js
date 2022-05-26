@@ -16,7 +16,7 @@ handler.all = async function (m, { isBlocked }) {
         if (m.mentionedJid.includes(this.user.jid) && m.isGroup) {
             await this.send2Button(m.chat,
                 isBanned ? 'zifabotz tidak aktif' : banned ? 'kamu dibanned' : '*APAAN NGETAG",ADA BANSOS KAH🗿?*',
-                '©zifabotz',
+                '©jarotbotz',
                 isBanned ? 'Unban' : banned ? 'Pemilik Bot' : 'Menu',
                 isBanned ? '.unban' : banned ? '.owner' : '.?',
                 m.isGroup ? 'Ban' : isBanned ? 'Unban' : 'Donasi',
@@ -37,10 +37,10 @@ handler.all = async function (m, { isBlocked }) {
 𝐌𝐚𝐮 𝐬𝐞𝐰𝐚? 𝐘𝐚 𝐥𝐚𝐧𝐠𝐬𝐮𝐧𝐠 𝐤𝐞 𝐨𝐰𝐧𝐞𝐫 𝐚𝐣𝐚 𝐧𝐠𝐚𝐩𝐢𝐧 𝐤𝐞 𝐛𝐨𝐭❗️
 ╭═══════════════════════
 ║╭──❉ 〔 𝐕𝐈𝐀 𝐌𝐎𝐁𝐈𝐋𝐄 〕 ❉──────
-║│➸ *DANA* : 085828764046
+║│➸ *DANA* : 085850539404
 ║╰─────────
 ▌│█║▌║▌║║▌║▌║█│▌▌│█║▌║▌║║▌║▌║█│
-╰═══════════════════════`.trim(), '©zifabotz', 'PAYMENT', '.payment', 'MENU', '.menu', m)
+╰═══════════════════════`.trim(), '©jarotbotz', 'PAYMENT', '.payment', 'MENU', '.menu', m)
 }
 
     // salam
@@ -70,7 +70,7 @@ handler.all = async function (m, { isBlocked }) {
     if (new Date() * 1 - setting.status > 1000) {
         let _uptime = process.uptime() * 1000
         let uptime = clockString(_uptime)
-        await this.setStatus(`time ${uptime} | 🖥️Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik'} |zifabotz by.rozi`).catch(_ => _)
+        await this.setStatus(`time ${uptime} | 🖥️Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik'} |Jarotbotz by.Jarot`).catch(_ => _)
         setting.status = new Date() * 1
     }
 
