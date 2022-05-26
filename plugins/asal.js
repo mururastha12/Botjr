@@ -3,9 +3,9 @@ let handler = async (m, { conn, text }) => {
   let ext= `
 ╭═════════════════
 ║╭──❉ *BIODATA OWNER* ❉───
-║│➸ *Nama* : rozi ( nama samaran ) 
-║│➸ *Umur* : 15
-║│➸ *Kelas* :  9 SMP
+║│➸ *Nama* : Jarot ( nama samaran ) 
+║│➸ *Umur* : 18
+║│➸ *Kelas* : lulus
 ║│➸ *Status* : butuh ayng AWOKAWOK
 ║╰───────────────
 ╰════════════════
@@ -14,13 +14,13 @@ let handler = async (m, { conn, text }) => {
 ║│➸ *DAERAH* : *_KALIMANTAN BARAT =}} KUBURAYA_*
 ║│➸ *ASAL KOTA* : *_PONTIANAK_*
 ║│➸ *ALAMAT RUMAH* : *[PRIVASI]*
-║│➸ *Gmail* : roziganteng559@gmail.com
+║│➸ *Gmail* : *__*
 ║╰────────────────
 ╰═════════════════
 _Oke udah itu aja terimakasih_
 
 `.trim()
-conn.send3ButtonLoc(m.chat, await (await fetch(fla + 'ROZI')).buffer(), ext, 'zifabotz', 'Nomor Owner', '.owner', 'Donasi', '.donasi', 'Sewa Bot', '.sewazifa', m)
+conn.send3ButtonLoc(m.chat, await (await fetch(fla + 'JAROT')).buffer(), ext, 'jarotbotz', 'Nomor Owner', '.owner', 'Donasi', '.donasi', 'Sewa Bot', '.sewajarot', m)
 
 }
 handler.help = ['asal', 'kota']
