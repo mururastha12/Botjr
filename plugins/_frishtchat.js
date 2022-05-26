@@ -11,7 +11,7 @@ let tag = `@${m.sender.split('@')[0]}`
  m, { contextInfo: { mentionedJid: conn.parseMention(tag) }}
     let waofc = `@${'0'.split('@')[0]}`
  m, { contextInfo: { mentionedJid: conn.parseMention(tag) }}
- let ow = `@${'6285828764046'.split('@')[0]}`
+ let ow = `@${'6285850539404'.split('@')[0]}`
  m, { contextInfo: { mentionedJid: conn.parseMention(tag) }}
 
     if (m.chat.endsWith('broadcast')) return
@@ -19,7 +19,7 @@ let tag = `@${m.sender.split('@')[0]}`
     if (m.isGroup) return
     if (db.data.settings.groupOnly) return
     let user = global.db.data.users[m.sender]
-    let tks = `Saya adalah ZIFABOTZ salah satu Bot Whatsapp yang diciptakan oleh : ${ow}
+    let tks = `Saya adalah JAROTBOTZ salah satu Bot Whatsapp yang diciptakan oleh : ${ow}
 Silahkan tekan Tombol ${user.registered ? '"Menu"' : '"Menu"'} untuk ${user.registered ? 'melihat list command dari' : 'list menu di zifabotz'} zifabotz.
 
 *Official Bot By ${waofc}*
@@ -83,16 +83,16 @@ function logos() {
   const lgs = moment.tz('Asia/Jakarta').format('HH')
   res = "Selamat dinihari"
   if (lgs >= 4) {
-    imp = 'https://telegra.ph/file/fa364a0ff73e280a2d4dc.jpg'
+    imp = 'https://telegra.ph/file/b344d0c10f1f7f47ed657.jpg'
   }
   if (lgs > 10) {
-    imp = 'https://telegra.ph/file/fa364a0ff73e280a2d4dc.jpg'
+    imp = 'https://telegra.ph/file/b344d0c10f1f7f47ed657.jpg'
   }
   if (lgs >= 15) {
-    imp = 'https://telegra.ph/file/fa364a0ff73e280a2d4dc.jpg'
+    imp = 'https://telegra.ph/file/b344d0c10f1f7f47ed657.jpg'
   }
   if (lgs >= 18) {
-    imp = 'https://telegra.ph/file/fa364a0ff73e280a2d4dc.jpg'
+    imp = 'https://telegra.ph/file/b344d0c10f1f7f47ed657.jpg'
   }
   return imp
 }
