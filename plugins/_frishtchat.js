@@ -20,7 +20,7 @@ let tag = `@${m.sender.split('@')[0]}`
     if (db.data.settings.groupOnly) return
     let user = global.db.data.users[m.sender]
     let tks = `Saya adalah JAROTBOTZ salah satu Bot Whatsapp yang diciptakan oleh : ${ow}
-Silahkan tekan Tombol ${user.registered ? '"Menu"' : '"Menu"'} untuk ${user.registered ? 'melihat list command dari' : 'list menu di zifabotz'} zifabotz.
+Silahkan tekan Tombol ${user.registered ? '"Menu"' : '"Menu"'} untuk ${user.registered ? 'melihat list command dari' : 'list menu di jarotbotz'} jarotbotz.
 
 *Official Bot By ${waofc}*
 *Powered By ${ow}*`
@@ -72,7 +72,7 @@ Silahkan tekan Tombol ${user.registered ? '"Menu"' : '"Menu"'} untuk ${user.regi
             "fileEncSha256": "NI9ykWUcXKquea4BmH7GgzhMb3pAeqqwE+MTFbH/Wk8=",
             "directPath": "/v/t62.7118-24/351756_287008086621545_8250021012380583765_n.enc?ccb=11-4&oh=6f0f730e5224c054969c276a6276a920&oe=61A21F46",
             "mediaKeyTimestamp": "1634472176",
-            "jpegThumbnail": await (await fetch('https://telegra.ph/file/20c62b52ac7fb9bf223bf.jpg')).buffer(),
+            "jpegThumbnail": await (await fetch('https://telegra.ph/file/16fd3099fec2f93201556.jpg')).buffer(),
   }}, 'buttonsMessage', { quoted: ftroli, contextInfo: { mentionedJid: this.parseMention(tksk), forwardingScore: 999, isForwarded: true, externalAdReply: { title: global.wm, body: `${pickRandom(['udah makan belum kak?', 'udh mandi belum kak?', 'Semangat ya kak!', 'Jangan begadang mulu ya!', 'jangan spam ya kak!', 'Jangan lupa donasi yak kak! >.<', 'Jaga kesehatan yaw kak!', 'Jangan lupa makan!', 'Jangan lupa istirahat yak! >.<', 'I Love you kak >.< 💗✨', 'Pr nya udh belum kak?', 'Jangan kebanyakan main hp yk! nanti sakit :‹'])}`, description: `${pickRandom(['udah makan belum kak?', 'udh mandi belum kak?', 'Semangat ya kak!', 'Jangan begadang mulu ya!', 'jangan spam ya kak!', 'Jangan lupa donasi yak kak! >.<', 'Jaga kesehatan yaw kak!', 'Jangan lupa makan!', 'Jangan lupa istirahat yak! >.<', 'I Love you kak >.< 💗✨', 'Pr nya udh belum kak?', 'Jangan kebanyakan main hp yk! nanti sakit :‹'])}`, mediaType: 2, thumbnail: await (await fetch(`${logos()}`)).buffer(), mediaUrl: `https://youtube.com/watch?v=uIedYGN3NQQ`}}})
     user.pc = new Date * 1
 }
